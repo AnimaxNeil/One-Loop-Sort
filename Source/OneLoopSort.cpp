@@ -88,16 +88,17 @@ void print(int arr[], int size)
 
 int main()
 {
+    using namespace std;
     using namespace OneLoopSort;
     int arr[] = {3, 6, -7, 2, 14, -21, 33, -342, 765, 123, 720, 22, 11, 23, -32, 0, -169, 77, 92};
     const int size = (int)(sizeof(arr)) / (int)(sizeof(arr[0]));
-    std::cout << "Unsorted :\t";
+    cout << "Unsorted :\t";
     print(arr, size);
     oneloopsort_bubble(arr, size);
     // oneloopsort_selection(arr, size);
     // oneloopsort_insertion(arr, size);
-    std::cout << "Sorted :\t";
+    cout << "Sorted :\t";
     print(arr, size);
-    std::cin.get();
+    cin.get();
     return 0;
 }
