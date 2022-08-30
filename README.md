@@ -6,7 +6,6 @@ Basic sorting algorithms but they are implemented using only one loop.
 #### Release Info  
 *developer* : **AnimaxNeil**  
 *language* : C++  
-*release date* : 5 April 2023  
 
 ---
 
